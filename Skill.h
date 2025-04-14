@@ -24,7 +24,7 @@ public:
 	float MinDamage;
 
 	float Range;
-	float CollTime;
+	float CoolTime;
 
 	std::string Name;
 	AImage SkillIcon;
