@@ -2,22 +2,13 @@
 #include <string>
 #include "Image.h"
 #include "Characer.h"
+#include "Transform.h"
 
 class ASkill
 {
 public:
-	//Location Parameter
-	float LocationX;
-	float LocationY;
-	float LocationZ;
-	//Rotation Parameter
-	float RotationX;
-	float RotationY;
-	float RotationZ;
-	//Scale Parameter
-	float ScaleX;
-	float ScaleY;
-	float ScaleZ;
+
+	ATransform* Transform;
 
 	//Skill Prameter
 	float MaxDamage;
@@ -27,7 +18,7 @@ public:
 	float CoolTime;
 
 	std::string Name;
-	AImage SkillIcon;
+	UImage SkillIcon;
 
 	void Action();
 

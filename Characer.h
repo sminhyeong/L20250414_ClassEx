@@ -1,5 +1,6 @@
 #pragma once
 #include "Skill.h"
+#include "Transform.h"
 
 class ACharacer
 {
@@ -21,18 +22,7 @@ public :
 
 	std::string Name;
 
-	//Location Parameter
-	float LocationX;
-	float LocationY;
-	float LocationZ;
-	//Rotation Parameter
-	float RotationX;
-	float RotationY;
-	float RotationZ;
-	//Scale Parameter
-	float ScaleX;
-	float ScaleY;
-	float ScaleZ;
+	ATransform* Translate;
 
 	ASkill CurrentSkill;
 	void LoadCharacterParams(std::string path);
