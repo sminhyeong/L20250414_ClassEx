@@ -1,5 +1,5 @@
 #pragma once
-class AImage
+class UImage
 {
 
 };
