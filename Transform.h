@@ -1,5 +1,5 @@
 #pragma once
-class ATransform
+class UTransform
 {
 public :
 	//Location Parameter
